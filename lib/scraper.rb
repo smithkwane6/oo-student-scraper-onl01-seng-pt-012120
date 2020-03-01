@@ -23,7 +23,6 @@ class Scraper
     # this is a student_card
   def self.scrape_profile_page(profile_url)
 
-  end
     student_profile = {}
     html = open(profile_url)
     profile = Nokogiri::HTML(html)
