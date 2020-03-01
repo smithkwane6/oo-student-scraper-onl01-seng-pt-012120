@@ -6,7 +6,6 @@ class Scraper
 
   def self.scrape_index_page(index_url)
 
-  end
       students = []
       html = open(index_url)
       index = Nokogiri::HTML(html)
@@ -23,7 +22,6 @@ class Scraper
     # this is a student_card
   def self.scrape_profile_page(profile_url)
 
-  end
     student_profile = {}
     html = open(profile_url)
     profile = Nokogiri::HTML(html)
